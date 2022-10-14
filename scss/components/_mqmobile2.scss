@@ -1,0 +1,73 @@
+@media only screen and (min-width:360px) and (max-width:450px){
+    .hero{
+        height: 80vh;
+    }
+    .hero h1{
+        font-size: 3.7rem;
+    }
+    .hero h2{
+        font-size: 2.5rem;
+    }
+    .titulos{
+        font-size: 2.3rem;
+    }
+    .segunda-seccion h2{
+        font-size: 30px;
+    }
+    .segunda-seccion p{
+        font-size: 22px;
+    }
+    .fondo-destacados{
+        display: none;
+    }
+    .nosotros{
+        height: 280vh;
+    }
+    .nosotros h2{
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .nosotros p{
+        font-size: 20px;
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .recomendaciones #mayor{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+    .div-recomendaciones #imagen-1{
+        width: 260px;
+        height: 300px;
+        margin: 10px 35px;
+    }
+    .div-recomendaciones #imagen-2{
+        width: 265px;
+        height: 300px;
+        margin: 10px 35px;
+    }
+    .div-recomendaciones #imagen-3{
+        width: 300px;
+        height: 260px;
+        margin: 5px 20px;
+    }
+    .div-recomendaciones #imagen-4{
+        width: 300px;
+        height: 260px;
+        margin: 5px 20px;
+    }
+    .div-recomendaciones #imagen-5{
+        width: 300px;
+        height: 260px;
+        margin: 5px 20px;
+
+    }
+    .inicio-sesion{
+        height: 130vh;
+    }
+    .login{
+        width: 330px;
+    }
+}

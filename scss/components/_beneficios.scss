@@ -1,0 +1,76 @@
+@import '../base/lista';
+
+.segunda-seccion {
+    background-image: url('https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h2 {
+        font-family: 'reboto', sans-serif;
+        text-align: center;
+        font-size: nth($font-size, 3);
+        color: nth($colores, 1);
+        text-shadow: 2px 1px 14px #208cf1,
+            6px 3px 24px #208cf1,
+            8px 5px 28px #208cf1,
+            10px 8px 32px #208cf1;
+    }
+
+    p {
+        font-family: 'reboto' sans-serif;
+        text-align: center;
+        color: nth($colores , 1);
+        margin: 20px 0;
+        font-size: nth($font-size , 8);
+        text-shadow: 2px 1px 14px nth($colores , 4),
+            6px 3px 24px nth($colores , 4),
+            8px 5px 28px nth($colores , 4),
+            10px 8px 32px nth($colores , 4);
+    }
+
+    .seccion-beneficios {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .beneficios {
+        margin: 75px;
+        height: 400px;
+    }
+
+    .beneficios img {
+        width: 230px;
+        height: 250px;
+        border-radius: 50%;
+        box-shadow: 0 0 3px nth($colores, 1),
+            0 0 6px nth($colores, 1),
+            0 0 15px nth($colores, 1),
+            0 0 32px nth($colores, 3),
+            0 0 42px nth($colores, 3),
+            0 0 52px nth($colores, 3),
+            0 0 52px nth($colores, 3),
+            0 0 52px nth($colores, 3);
+    }
+
+    .beneficios p {
+        word-wrap: break-word;
+        width: 250px;
+        padding-left: 3px;
+        padding-top: 20px;
+        font-size: nth($font-size , 8);
+        font-weight: bold;
+        margin-top: 20px;
+        color: nth($colores , 1);
+        text-shadow: 0 0 16px nth($colores , 4),
+            0 0 22px nth($colores , 4),
+            0 0 25px nth($colores , 4),
+            0 0 25px nth($colores , 4),
+            0 0 25px nth($colores , 4);
+    }
+
+
+}

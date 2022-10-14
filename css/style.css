@@ -1,0 +1,642 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar-fondo {
+  background-color: black;
+  width: 100%;
+}
+header .logo {
+  height: 100px;
+}
+header .logo img {
+  box-sizing: border-box;
+  display: flex;
+  float: none;
+  line-height: 30px;
+  position: static;
+  z-index: auto;
+  height: 100px;
+  margin-left: 45px;
+}
+header .categorias {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "reboto";
+  justify-content: end;
+  padding: 30px;
+}
+header .categorias li {
+  padding: 15px;
+  font-weight: bold;
+}
+header .categorias a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.hero {
+  height: 95vh;
+  background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
+  background-position: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  color: rgba(247, 247, 247, 0.89);
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 0 0 32px #0096FF, 0 0 42px #0096FF, 0 0 52px #0096FF, 0 0 52px #0096FF, 0 0 52px #0096FF;
+}
+.hero h2 {
+  color: rgba(247, 247, 247, 0.89);
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 32px #0096FF, 0 0 42px #0096FF, 0 0 52px #0096FF, 0 0 52px #0096FF, 0 0 52px #0096FF;
+}
+
+.segunda-seccion {
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.segunda-seccion h2 {
+  font-family: "reboto", sans-serif;
+  text-align: center;
+  font-size: 2.7rem;
+  color: #ffffff;
+  text-shadow: 2px 1px 14px #208cf1, 6px 3px 24px #208cf1, 8px 5px 28px #208cf1, 10px 8px 32px #208cf1;
+}
+.segunda-seccion p {
+  font-family: "reboto" sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0;
+  font-size: 1.6rem;
+  text-shadow: 2px 1px 14px #208cf1, 6px 3px 24px #208cf1, 8px 5px 28px #208cf1, 10px 8px 32px #208cf1;
+}
+.segunda-seccion .seccion-beneficios {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.segunda-seccion .beneficios {
+  margin: 75px;
+  height: 400px;
+}
+.segunda-seccion .beneficios img {
+  width: 230px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 15px #ffffff, 0 0 32px #843ED8, 0 0 42px #843ED8, 0 0 52px #843ED8, 0 0 52px #843ED8, 0 0 52px #843ED8;
+}
+.segunda-seccion .beneficios p {
+  word-wrap: break-word;
+  width: 250px;
+  padding-left: 3px;
+  padding-top: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ffffff;
+  text-shadow: 0 0 16px #208cf1, 0 0 22px #208cf1, 0 0 25px #208cf1, 0 0 25px #208cf1, 0 0 25px #208cf1;
+}
+
+.fondo-destacados {
+  background-image: url(https://fondosmil.com/fondo/34253.jpg);
+}
+.fondo-destacados h2 {
+  background-color: #208cf1;
+  color: #ffffff;
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "reboto", sans-serif;
+  border-color: black 4px;
+}
+.fondo-destacados .productos {
+  margin: 45px auto;
+  align-content: center;
+}
+.fondo-destacados .productos img {
+  width: 150px;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  margin: 15px auto;
+  box-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 15px #ffffff, 0 0 25px #efb810, 0 0 25px #efb810, 0 0 30px #efb810, 0 0 30px #efb810, 0 0 30px #efb810;
+}
+.fondo-destacados .productos p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "reboto";
+}
+
+.fondo-alcohol {
+  background-color: rgba(32, 140, 241, 0.231372549);
+}
+
+.fondo-Salcohol {
+  background-color: #efb810;
+}
+
+.fondo-ubicacion h2 {
+  background-color: #208cf1;
+  color: #ffffff;
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "reboto", sans-serif;
+  border-color: black 4px;
+}
+.fondo-ubicacion .mapa {
+  background-color: rgba(32, 140, 241, 0.231372549);
+}
+.fondo-ubicacion .iframe {
+  width: 100%;
+}
+.fondo-ubicacion .direccion-contacto {
+  background-color: rgba(32, 140, 241, 0.231372549);
+}
+.fondo-ubicacion h3 {
+  font-size: 2.7rem;
+  color: rgba(0, 0, 0, 0.733);
+  font-family: "reboto";
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.fondo-ubicacion h4 {
+  font-size: 2.3rem;
+  color: rgba(0, 0, 0, 0.733);
+  font-family: "reboto";
+  padding-left: 20px;
+}
+.fondo-ubicacion .icon-ubi {
+  color: red;
+  margin: 0 10px;
+}
+.fondo-ubicacion .icon-cel {
+  color: black;
+  margin: 0 10px;
+}
+
+.titulo-formulario {
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+  background-color: #0096FF;
+}
+
+.inicio-sesion {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d6efd;
+}
+
+.login {
+  width: 360px;
+  height: min-content;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 22px lightslategray, 0 0 28px lightslategray, 0 0 32px black, 0 0 36px black, 0 0 40px black;
+}
+.login h2 {
+  font-size: 2.3rem;
+  margin-bottom: 25px;
+  font-family: "reboto";
+}
+.login form {
+  font-size: 1.3rem;
+}
+.login .form-group {
+  margin-bottom: 12px;
+}
+.login .input [type=submit] {
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+.fondo-alcohol {
+  background-color: #000000;
+}
+.fondo-alcohol div {
+  background-color: #323232;
+}
+.fondo-alcohol h2 {
+  background-color: #208cf1;
+  color: #ffffff;
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "reboto", sans-serif;
+  border-color: black 4px;
+}
+.fondo-alcohol .productos {
+  margin: 45px auto;
+  align-content: center;
+}
+.fondo-alcohol .productos img {
+  width: 150px;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  margin: 15px auto;
+  box-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 15px #ffffff, 0 0 25px #208cf1, 0 0 25px #208cf1, 0 0 30px #208cf1, 0 0 30px #208cf1, 0 0 30px #208cf1;
+}
+.fondo-alcohol .productos p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "reboto";
+}
+
+.fondo-Salcohol {
+  background-color: #000000;
+}
+.fondo-Salcohol div {
+  background-color: #323232;
+}
+.fondo-Salcohol h2 {
+  background-color: #208cf1;
+  color: #ffffff;
+  font-size: 2.7rem;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "reboto", sans-serif;
+  border-color: black 4px;
+}
+.fondo-Salcohol .productos {
+  margin: 45px auto;
+  align-content: center;
+}
+.fondo-Salcohol .productos img {
+  width: 150px;
+  height: 180px;
+  border-radius: 15px;
+  display: flex;
+  margin: 15px auto;
+  box-shadow: 0 0 3px #ffffff, 0 0 6px #ffffff, 0 0 15px #ffffff, 0 0 25px #843ED8, 0 0 25px #843ED8, 0 0 30px #843ED8, 0 0 30px #843ED8, 0 0 30px #843ED8;
+}
+.fondo-Salcohol .productos p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "reboto";
+}
+
+.nosotros {
+  background-image: url(https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-luz-neon-ilustracion-3d_161844-386.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 130vh;
+}
+.nosotros h2 {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+  text-shadow: 2px 1px 14px #208cf1, 6px 3px 24px #208cf1, 8px 5px 28px #208cf1, 10px 8px 32px #208cf1;
+}
+.nosotros p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 80px 50px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+}
+
+#mayor {
+  font-size: 2.7rem;
+  font-weight: 600;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.897);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "reboto";
+  text-align: center;
+}
+
+.recomendaciones {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #0096FF;
+}
+.recomendaciones .div-recomendaciones {
+  margin: 80px auto;
+}
+.recomendaciones #imagen-1 {
+  margin: 20px 140px;
+  width: 300px;
+  height: 350px;
+}
+.recomendaciones #imagen-2 {
+  width: 450px;
+  height: 350px;
+  margin: 20px 60px;
+}
+.recomendaciones #imagen-3 {
+  margin: 20px 10px;
+  width: 370px;
+  height: 230px;
+}
+.recomendaciones #imagen-4 {
+  margin: 20px 10px;
+  width: 370px;
+  height: 230px;
+}
+.recomendaciones #imagen-5 {
+  margin: 20px 10px;
+  width: 350px;
+  height: 230px;
+}
+.recomendaciones .texto-recomendaciones {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  text-shadow: 0 0 32px #843ED8, 0 0 42px rgba(0, 0, 0, 0.733), 0 0 52px rgba(0, 0, 0, 0.733), 0 0 52px rgba(0, 0, 0, 0.733), 0 0 52px rgba(0, 0, 0, 0.733);
+  margin: 20px auto;
+}
+.recomendaciones li {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+}
+.recomendaciones #tonyR {
+  font-size: 2.7rem;
+  font-family: "reboto";
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.897);
+}
+.recomendaciones p {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+}
+
+footer {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  overflow: hidden;
+  padding: 60px 0 0 0;
+  background-color: rgba(128, 128, 128, 0.897);
+  text-align: center;
+}
+footer .titulo-footer {
+  color: rgba(0, 0, 0, 0.733);
+  font-family: "reboto";
+  font-size: 2.3rem;
+  margin-bottom: 3rem;
+}
+footer .redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
+}
+footer i {
+  font-size: 2rem;
+  padding: 0 2.5rem;
+  color: rgba(0, 0, 0, 0.733);
+}
+
+.derechos {
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(92, 92, 92, 0.897);
+  height: 3rem;
+}
+
+@media only screen and (max-width: 359px) {
+  .hero {
+    height: 50vh;
+  }
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  .hero h2 {
+    font-size: 2.3rem;
+  }
+  .titulos {
+    font-size: 2.3rem;
+  }
+  .segunda-seccion h2 {
+    font-size: 25px;
+  }
+  .segunda-seccion p {
+    font-size: 17px;
+  }
+  .fondo-destacados {
+    display: none;
+  }
+  .nosotros {
+    height: 250vh;
+  }
+  .nosotros p {
+    font-size: 20px;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .recomendaciones #mayor {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .div-recomendaciones #imagen-1 {
+    width: 220px;
+    height: 300px;
+    margin: 10px 40px;
+  }
+  .div-recomendaciones #imagen-2 {
+    width: 225px;
+    height: 260px;
+    margin: 10px 40px;
+  }
+  .div-recomendaciones #imagen-3 {
+    width: 260px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-4 {
+    width: 260px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-5 {
+    width: 260px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .inicio-sesion {
+    height: 120vh;
+  }
+  .login {
+    width: 310px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 450px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero h1 {
+    font-size: 3.7rem;
+  }
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  .titulos {
+    font-size: 2.3rem;
+  }
+  .segunda-seccion h2 {
+    font-size: 30px;
+  }
+  .segunda-seccion p {
+    font-size: 22px;
+  }
+  .fondo-destacados {
+    display: none;
+  }
+  .nosotros {
+    height: 280vh;
+  }
+  .nosotros h2 {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .nosotros p {
+    font-size: 20px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .recomendaciones #mayor {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+  .div-recomendaciones #imagen-1 {
+    width: 260px;
+    height: 300px;
+    margin: 10px 35px;
+  }
+  .div-recomendaciones #imagen-2 {
+    width: 265px;
+    height: 300px;
+    margin: 10px 35px;
+  }
+  .div-recomendaciones #imagen-3 {
+    width: 300px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-4 {
+    width: 300px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-5 {
+    width: 300px;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .inicio-sesion {
+    height: 130vh;
+  }
+  .login {
+    width: 330px;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 961px) {
+  .hero {
+    height: 90vh;
+  }
+  .hero h1 {
+    font-size: 4rem;
+  }
+  .hero h2 {
+    font-size: 3rem;
+  }
+  .titulos {
+    font-size: 3rem;
+  }
+  .segunda-seccion h2 {
+    font-size: 35px;
+  }
+  .nosotros {
+    height: 280vh;
+  }
+  .nosotros h2 {
+    width: 100%;
+  }
+  .nosotros p {
+    font-size: 20px;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .div-recomendaciones #imagen-1 {
+    width: 80%;
+    height: 350px;
+    margin: 15px 40px;
+  }
+  .div-recomendaciones #imagen-2 {
+    width: 85%;
+    height: 300px;
+    margin: 10px 35px;
+  }
+  .div-recomendaciones #imagen-3 {
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-4 {
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+  }
+  .div-recomendaciones #imagen-5 {
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

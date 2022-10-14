@@ -1,0 +1,55 @@
+@media only screen and (min-width:451px) and (max-width:961px){
+.hero{
+    height: 90vh;
+}
+.hero h1{
+    font-size: 4rem;
+}
+.hero h2{
+    font-size: 3rem;
+}
+.titulos{
+    font-size: 3rem;
+}
+.segunda-seccion h2{
+    font-size: 35px;
+}
+.nosotros{
+    height: 280vh;
+}
+.nosotros h2{
+    width: 100%;
+}
+.nosotros p{ 
+    font-size: 20px;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ .div-recomendaciones #imagen-1{
+    width: 80%;
+    height: 350px;
+    margin: 15px 40px;
+ }
+ .div-recomendaciones #imagen-2{
+    width: 85%;
+    height: 300px;
+    margin: 10px 35px;
+}
+.div-recomendaciones #imagen-3{
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+}
+.div-recomendaciones #imagen-4{
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+}
+.div-recomendaciones #imagen-5{
+    width: 90%;
+    height: 260px;
+    margin: 5px 20px;
+
+}
+}

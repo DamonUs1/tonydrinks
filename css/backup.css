@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*TIPOGRAFIAS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600&display=swap');
+
+
+/*ROOT PARA COLORES, MARGENES, PADING*/
+
+:root {
+    --colortitulos: aqua;
+    --colortextos: white;
+    --colorbotones: #820000;
+    --colorfondo: black;
+    --padingsecciones: 60px 0;
+    --marginelementos: 40px;
+}
+
+.fondo {
+    background-color: black;
+}
+.navbar-fondo{
+    background-color: black;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--padingsecciones);
+    text-align: center;
+}
+
+
+
+
+/*MENU DE NAVEGACION*/
+
+
+.logo {
+    height: 100px;
+
+
+}
+
+.logo img {
+    box-sizing: border-box;
+    display: flex;
+    float: none;
+    line-height: 30px;
+    position: static;
+    z-index: auto;
+    height: 100px;
+    margin-left: 45px;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'reboto';
+    justify-content: end;
+    padding: 30px;
+
+}
+
+.categorias li{
+    padding: 15px;
+    font-weight: bold;
+}
+.categorias a{
+    color: white;
+    font-size: 18px;
+}
+
+/*MAS INFORMACION*/
+
+.hero {
+    height: 95vh;
+    background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.hero h1{
+    color:rgba(247, 247, 247, 0.89);
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow:0 0 32px #0096FF,
+    0 0 42px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF;
+    
+}
+.hero, h2{
+    color:rgba(247, 247, 247, 0.89);
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow:0 0 32px #0096FF,
+    0 0 42px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF,
+    0 0 52px #0096FF;
+}
+
+
+/*MAIN-CUERPO*/
+
+/*BENEFICIOS*/
+
+.segunda-seccion {
+
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-luz-neon-ilustracion-3d_161844-386.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.titulo-secciones {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    text-shadow: 2px 1px 14px #208cf1,
+    6px 3px 24px #208cf1,
+    8px 5px 28px #208cf1,
+    10px 8px 32px #208cf1;
+
+}
+
+.copy {
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 25px;
+    text-shadow: 2px 1px 14px #208cf1,
+    6px 3px 24px #208cf1,
+    8px 5px 28px #208cf1,
+    10px 8px 32px #208cf1;
+}
+
+.seccion-beneficios {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.beneficios {
+    margin: 75px;
+
+    height: 400px;
+
+
+}
+
+.beneficios img {
+    width: 230px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow:
+        0 0 3px #fff,
+        0 0 6px #fff,
+        0 0 15px #fff,
+        0 0 32px #843ED8,
+        0 0 42px #843ED8,
+        0 0 52px #843ED8,
+        0 0 52px #843ED8,
+        0 0 52px #843ED8;
+
+}
+
+.beneficios p {
+    color: white;
+    text-shadow:
+        0 0 16px #208cf1,
+        0 0 22px #208cf1,
+        0 0 25px #208cf1,
+        0 0 25px #208cf1,
+        0 0 25px #208cf1;
+    word-wrap: break-word;
+    width: 250px;
+    padding-left: 3px;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/*PRODUCTOS*/
+.fondo-destacados{
+    background-image: url(https://fondosmil.com/fondo/34253.jpg);
+}
+.fondo-alcohol{
+    background-color:#208cf13b;
+}
+.fondo-Salcohol{
+    background-color: #f14040b6;
+}
+
+.titulos {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    background-color: #208cf1;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+    border-color: black 4px;
+}
+
+.productos {
+    margin: 45px auto;
+    align-content: center;
+}
+
+.productos img {
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+    display: flex;
+    margin: 15px auto;
+}
+
+.productos p {
+    text-align:center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*SECCION UBICACION*/
+
+.titulo-ubicacion{
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    background-color:#208cf1 ;
+    font-family: 'roboto', sans-serif;
+    border-color: black 4px;
+    height: 3rem;
+}
+
+.mapa{
+    background-color:#18c0b8f3; 
+}
+
+.iframe{
+    width: 100%;
+    
+}
+
+.direccion-contacto{
+    background-color: lightslategray;
+   
+}
+
+.direccion-contacto h3{
+    font-size: 2.7rem;
+    color: rgba(0, 0, 0, 0.733);
+    font-family:'Roboto', sans-serif;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.direccion-contacto h4{
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+.icon-ubi{
+    color: red;
+    margin: 0 10px;
+}
+.icon-cel{
+    color: black;
+    margin: 0 10px;
+}
+
+/*FORMULARIO DE INICIO DE SESION*/
+.titulo-formulario{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #0096FF;
+
+}
+.inicio-sesion{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d6efd;
+}
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 0 22px lightslategray,
+    0 0 28px lightslategray,
+    0 0 32px black,
+    0 0 36px black,
+    0 0 40px black;
+}
+.login h2{
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-family: 'reboto' 
+}
+.login form{
+    font-size: 20px;
+}
+.login form .form-group{
+    margin-bottom: 12px;
+}
+.login form input[type="submit"] {
+font-size: 20px;
+margin-top: 15px;
+}
+
+/*NOSOTROS*/
+.texto-nosotros{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 80px 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    }
+    /*RECOMENDACIONES*/
+    .recomendaciones{
+        width: 100%;
+        align-items: center;
+        background-color: black;
+    }
+    .titulo-recomendaciones{
+        font-family: 'roboto', sans-serif;
+        color: white;
+        font-size: 42px;
+        display: inline-block;
+        width: 30%;
+        background-color: black;
+        text-align: center;
+        text-shadow: 
+        0 0 32px #843ED8,
+        0 0 42px #843ED8,
+        0 0 52px #843ED8,
+        0 0 52px #843ED8,
+        0 0 52px #843ED8;
+          padding: 25px;    
+}
+
+.lista-recomendaciones{
+    display: flex;
+width: 100%;
+height: 400px;
+margin-top: 50px;
+padding: 50px;
+justify-content: space-around;
+    align-items: center;
+    background-color: #1A1A2E;
+
+}
+.img-1{
+    width: 300px;
+    height: 320px;
+}
+.img-2{
+    width: 600px;
+    height: 280px;    
+}
+.img-3{
+    height: 300px;
+    width: 350px;
+}
+.lista-ordenada{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: 20px;
+    text-shadow: 0 0 8px #208cf1,
+    0 0 10px #208cf1,
+    0 0 11px #208cf1,
+    0 0 12px #208cf1,
+    0 0 13px #208cf1 ;
+    
+}
+/*FOOTER/ PIE DE PAGINA*/
+footer {
+    background-color: rgba(128, 128, 128, 0.897);
+
+}
+
+.titulo-footer{
+    color: black;
+    font-family: 'reboto';
+    font-size: 35px ;
+
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.redes-sociales i {
+    font-size: 30px;
+    padding: 0 25px 0 25px;
+    color: black;
+}
+
+
+/*DERECHOS DE AUTOR*/
+
+.derechos{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    background-color:rgba(128, 128, 128, 0.897);
+    padding: 10px;
+    
+}
+
+/*MEDIA QUERY MOBILE MAX 359PX*/
+@media only screen and (max-width:359px){
+    /*HERO*/
+    .hero{
+        height: 50vh;
+    }
+    .hero__textos h1{
+        font-size: 3.5rem;
+    }
+    .hero__textos h2{
+        font-size: 2.3rem;
+    }
+    /*MEDIA QUERY / INDEX MAX 359PX*/
+.titulo-secciones{
+    font-size: 25px;
+}
+.copy{
+    font-size: 17px;
+}
+.beneficios{
+    margin: 42px;
+    height: 270px;
+}
+.beneficios img{
+    width: 155px;
+    height: 175px;
+    box-shadow:0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 7px #fff,
+        0 0 18px #843ED8,
+        0 0 22px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8;
+}
+.beneficios p{
+    font-size: 18px;
+}
+.fondo-destacados{
+    display: none;
+}
+/*MEDIA QUERY / PRODUCTOS MAX 359PX*/
+.titulo-productos{
+    font-size: 25px;
+}
+.productos{
+    margin: 5px 0;
+    width: 150px;
+}
+.productos img{
+    width: 105px;
+    height: 135px;
+    margin: 3px auto;
+}
+.productos p{
+    font-size: 14px;
+}
+/*MEDIA QUERY / UBICACION MAX 359PX*/
+.titulo-ubicacion{
+    font-size: 1.6rem;
+}
+/*MEDIA QUERY / NOSOTROS MAX 359PX*/
+.texto-nosotros{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 23px;
+    text-shadow:0 0 10px #208cf1,
+    0 0 12px #208cf1,
+    0 0 15px #208cf1,
+    0 0 22px #208cf1,
+    0 0 28px #208cf1; 
+}
+   /*MEDIA QUERY / RECOMENDACIONES MAX 359PX*/
+   .recomendaciones{
+    width: 320px; 
+}
+.lista-recomendaciones{
+    width: 310px;
+    margin: 5px auto;
+}
+.titulo-recomendaciones{
+    font-size: 23px;
+    width: 300px;
+    
+}
+.img-1{
+    height: 220px;
+    width: 130px;
+}
+.img-2{
+    height: 130px;
+    width: 130px;
+}
+.img-3{
+    width: 140px;
+    height: 180px;
+}
+.lista-ordenada{
+    font-size: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90px;
+}
+}
+
+/*MEDIA QUERY MOBILE 360PX-450PX*/
+@media only screen and (min-width:360px) and (max-width:450px){
+    /*HERO */
+    .hero{
+        height: 55vh;
+    }
+    .hero__textos h1{
+        font-size: 3.7rem;
+    }
+    .hero__textos h2{
+        font-size: 2.5rem;
+    }
+    /* MEDIA QUERY / INDEX MOBILE 360PX-450PX*/
+    .titulo-secciones{
+        font-size: 30px;
+    }
+    .copy{
+        font-size: 18px;
+    }
+    .beneficios{
+        margin: 45px;
+        height: 280px;
+    }
+    .beneficios img{
+        width: 160px;
+        height: 180px;
+        box-shadow:0 0 2px #fff,
+        0 0 3px #fff,
+        0 0 7px #fff,
+        0 0 18px #843ED8,
+        0 0 22px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8,
+        0 0 27px #843ED8; 
+    }
+    .beneficios p{
+        font-size: 20px;
+    }
+    .fondo-destacados{
+        display:none;
+    }
+   /*MEDIA QUERY / PRODUCTOS*/
+    /*BEBIDA CON ALCOHOL*/
+    .titulo-productos{
+        font-size: 30px;
+    }
+    .productos{
+        margin: 10px 0;
+        width: 180px;
+    }
+    .productos img{
+        width: 110px;
+        height: 140px;
+        margin: 5px auto;
+    }
+    .productos p{
+        font-size: 15px;
+    }
+    /*MEDIA QUERY / UBICACION Y CONTACTO*/
+    .titulo-ubicacion{
+        font-size: 1.8rem;
+    }
+    .iframe{
+        width: 320px;
+        height: 300px;
+        display: flex;
+        
+       
+    }
+    .direccion-contacto h2{
+        font-size: 2.2rem;
+    }
+    .direccion-contacto h3{
+        display: flex;
+        padding: 0 85px;
+        font-size: 1.4rem;
+    }
+
+    /*MEDIA QUERY / NOSOTROS*/
+    .texto-nosotros{
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+            font-size: 23px;
+            text-shadow:0 0 10px #208cf1,
+            0 0 12px #208cf1,
+            0 0 15px #208cf1,
+            0 0 22px #208cf1,
+            0 0 28px #208cf1; 
+     }
+    
+    /*MEDIA QUERY / RECOMENDACIONES*/
+    .recomendaciones{
+        width: 360px; 
+    }
+    .lista-recomendaciones{
+        width: 350px;
+        margin: 10px auto;
+    }
+    .titulo-recomendaciones{
+        font-size: 25px;
+        width: 300px;
+        
+    }
+    .img-1{
+        height: 250px;
+        width: 150px;
+    }
+    .img-2{
+        height: 150px;
+        width: 160px;
+    }
+    .img-3{
+        width: 170px;
+        height: 200px;
+    }
+    .lista-ordenada{
+        font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100px;
+    }
+}
+/*MEDIA QUERY TABLET */
+@media only screen and (min-width:451px) and (max-width:960px){
+.titulo-ubicacion{
+    font-size: 2.2rem;
+}
+
+}

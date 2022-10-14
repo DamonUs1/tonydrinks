@@ -1,0 +1,34 @@
+@import '../base/lista';
+@import '../base/mixin';
+
+.hero {
+    height: 95vh;
+    background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
+    background-position: center;
+    flex-direction: column;
+    @include display-flex;
+
+    h1 {
+        color: rgba(247, 247, 247, 0.89);
+        text-align: center;
+        font-size: nth($font-size, 5);
+        font-weight: 700;
+        text-shadow: 0 0 32px nth($colores , 2),
+            0 0 42px nth($colores , 2),
+            0 0 52px nth($colores , 2),
+            0 0 52px nth($colores , 2),
+            0 0 52px nth($colores , 2);
+    }
+
+    h2 {
+        color: rgba(247, 247, 247, 0.89);
+        text-align: center;
+        font-size: nth($font-size, 4);
+        font-weight: 700;
+        text-shadow: 0 0 32px nth($colores , 2),
+            0 0 42px nth($colores , 2),
+            0 0 52px nth($colores , 2),
+            0 0 52px nth($colores , 2),
+            0 0 52px nth($colores , 2);
+    }
+}

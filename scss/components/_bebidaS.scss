@@ -1,0 +1,42 @@
+@import '../base/lista';
+@import '../base/mixin';
+
+.fondo-Salcohol{
+    background-color: nth($colores, 12);
+    div{
+        background-color: nth($colores, 6 );
+    }
+
+    h2{
+        @include titulos;
+    }
+
+    .productos {
+        margin: 45px auto;
+        align-content: center;
+    }
+
+    .productos img {
+        width: 150px;
+        height: 180px;
+        border-radius: 15px;
+        display: flex;
+        margin: 15px auto;
+        box-shadow: 0 0 3px nth($colores, 1),
+            0 0 6px nth($colores, 1),
+            0 0 15px nth($colores, 1),
+            0 0 25px nth($colores, 3),
+            0 0 25px nth($colores, 3),
+            0 0 30px nth($colores, 3),
+            0 0 30px nth($colores, 3),
+            0 0 30px nth($colores, 3);
+    }
+
+    .productos p {
+        text-align: center;
+        font-size: nth($font-size, 7);
+        font-weight: 600;
+        color: nth($colores, 1);
+        font-family: nth($tipografia , 1);
+    }
+}

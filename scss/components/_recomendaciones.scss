@@ -1,0 +1,93 @@
+@import '../base/lista';
+@import '../base/mixin';
+
+#mayor {
+    font-size: nth($font-size, 3);
+    font-weight: 600;
+    width: 100%;
+    background-color: nth($colores, 9);
+    color: nth($colores , 1);
+    @include display-flex;
+    font-family: nth($tipografia, 1);
+    text-align: center;
+}
+
+.recomendaciones {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: nth($colores , 2);
+
+    .div-recomendaciones {
+        margin: 80px auto;
+    }
+
+    #imagen-1 {
+        margin: 20px 140px;
+        width: 300px;
+        height: 350px;
+    }
+
+    #imagen-2 {
+        width: 450px;
+        height: 350px;
+        margin: 20px 60px;
+    }
+    #imagen-3{
+        margin: 20px 10px;
+        width: 370px;
+        height: 230px;
+    }
+    #imagen-4{
+        margin: 20px 10px;
+        width: 370px;
+        height: 230px;
+    }
+    #imagen-5{
+        margin: 20px 10px;
+        width: 350px;
+        height: 230px;
+    }
+
+    .texto-recomendaciones {
+        text-align: center;
+        color: nth($colores, 1);
+        font-size: nth($font-size, 1);
+        text-shadow: 0 0 32px nth($colores, 3),
+            0 0 42px nth($colores, 8),
+            0 0 52px nth($colores, 8),
+            0 0 52px nth($colores, 8),
+            0 0 52px nth($colores, 8);
+        margin: 20px auto;
+    }
+
+    li {
+        text-decoration: none;
+        text-align: center;
+        font-size: nth($font-size , 7);
+        color: nth($colores , 1);
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    }
+
+    #tonyR {
+        font-size: nth($font-size, 3);
+        font-family: nth($tipografia, 1);
+        font-weight: 600;
+        text-align: center;
+        color: nth($colores, 1);
+        width: 100%;
+        background-color: nth($colores, 9);
+    }
+
+    p {
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+        font-size: nth($font-size , 7);
+        color: nth($colores , 1);
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    }
+
+
+}

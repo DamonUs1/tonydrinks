@@ -1,0 +1,28 @@
+@import '../base/lista';
+@import '../base/mixin';
+
+.nosotros{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-luz-neon-ilustracion-3d_161844-386.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 130vh;
+    h2{
+        font-family: 'roboto', sans-serif;
+        text-align: center;
+        font-size: 42px;
+        color: white;
+        text-shadow: 2px 1px 14px #208cf1,
+        6px 3px 24px #208cf1,
+        8px 5px 28px #208cf1,
+        10px 8px 32px #208cf1;
+    }
+    p{
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        margin: 80px 50px;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    }
+}

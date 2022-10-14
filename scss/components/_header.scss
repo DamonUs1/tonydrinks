@@ -1,0 +1,39 @@
+header {
+    .navbar-fondo {
+        background-color: black;
+        width: 100%;
+
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    .logo img {
+        box-sizing: border-box;
+        display: flex;
+        float: none;
+        line-height: 30px;
+        position: static;
+        z-index: auto;
+        height: 100px;
+        margin-left: 45px;
+    }
+    .categorias {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: 'reboto';
+        justify-content: end;
+        padding: 30px;
+    
+    }
+    
+    .categorias li{
+        padding: 15px;
+        font-weight: bold;
+    }
+    .categorias a{
+        color: white;
+        font-size: nth($font-size , 7 );
+    }
+}
