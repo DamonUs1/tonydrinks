@@ -2,8 +2,13 @@
 @import '../base/mixin';
 
 .fondo-destacados {
+    /*
     background-image: url(https://fondosmil.com/fondo/34253.jpg);
-
+*/
+background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
+background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     h2 {
         @include titulos;
     }
@@ -16,7 +21,8 @@
     .productos img {
         width: 150px;
         height: 180px;
-        border-radius: 15px;
+        border-radius: 100px;
+        border: 2px solid;
         display: flex;
         margin: 15px auto;
         box-shadow: 0 0 3px nth($colores, 1),

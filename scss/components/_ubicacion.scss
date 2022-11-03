@@ -1,4 +1,5 @@
 .fondo-ubicacion{
+    background-color: #002E94;
     h2{
         @include titulos;
         
@@ -8,6 +9,8 @@
     }
     .iframe{
         width: 100%;
+        border: 1px solid #000000;
+        border-radius: 5%;
     }
     .direccion-contacto{
         background-color: nth($colores , 5 );

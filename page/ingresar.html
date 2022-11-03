@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bebidas Frias en cuestion de minutos, Tu mejor opcion para pedir tus Bebidas Frias favoritas y con Excelente Atencion al Cliente ">
+    <meta name="keywords"
+        content="Inicio, sesion, inicio de sesion, registro, ingreso, ingresar, iniciar, cuenta, registrarse, alcohol, bebidas frias, delivery, pagina, web, En linea, correo, contraseña, contacto">
+    <meta property="og:type" content="Web site">
+    <meta property="og:tittle" content="TonyDrink's | Ingresa y disfruta tus bebidas favoritas">
+    <meta property="og:url" content="https://tonydrinks.000webhostapp.com/page/ingresar.html">
+    <meta property="og:image" content="https://tonydrinks.000webhostapp.com/imagenes/logo.png">
     <title>TonyDrink's | Ingresa y disfruta tus bebidas favoritas</title>
     <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon">
-     <!--CDN BOOTSTRAP-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--CDN BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!--CSS / Forma externa y recomendada-->
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/cfb4703018.js" crossorigin="anonymous"></script>
@@ -16,8 +25,8 @@
 </head>
 
 <body>
-   <div class="fondo">
-        
+    <div class="fondo">
+
         <header>
             <nav class="navbar navbar-expand-lg navbar-fondo navbar-dark">
                 <div class="container-fluid">
@@ -37,14 +46,15 @@
                                 <a class="nav-link" href="nosotros.html">NOSOTROS</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     PRODUCTOS
-                                  </a>
-                                  <ul class="dropdown-menu bg-dark">
+                                </a>
+                                <ul class="dropdown-menu bg-dark">
                                     <li><a class="dropdown-item" href="bebidaA.html">BEBIDAS CON ALCOHOL</a></li>
                                     <li><a class="dropdown-item" href="bebidaS.html">BEBIDAS SIN ALCOHOL</a>
                                     </li>
-                                  </ul>
+                                </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="recomendaciones.html">RECOMENDACIONES</a>
@@ -57,40 +67,37 @@
                 </div>
             </nav>
         </header>
-            <section class="hero">
-                <div class="hero__textos">
-                    <h1>TonyDrink's</h1>
-                        <h2>Bebidas frias</h2>
+        <section class="hero">
+            <div class="hero__textos">
+                <h1>TonyDrink's</h1>
+                <h2>Bebidas frias</h2>
+            </div>
+        </section>
+
+        <main class="inicio-sesion">
+            <div class="login">
+                <h2 class="text-center">INICIAR SESION</h2>
+                <form class="needs-validation">
+                    <div class="form-group was-validated">
+                        <label for="email" class="form-label">Correo electronico</label>
+                        <input type="email" id="email" class="form-control" placeholder="Ejp: daniel@gmail.com"
+                            required>
+                        <div class="invalid-feedback">Por favor ingresa tu correo electronico</div>
                     </div>
-                    <!--
-                    <div class="fondo">
-                        <a class="boton" href="#">Mas info</a>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" id="password" class="form-control" required>
+                        <div class="invalid-feedback">Por favor ingresa tu contraseña</div>
                     </div>
-                    -->
-            </section>
-       <main class="inicio-sesion">
-        <div class="login">
-         <h2 class="text-center">INICIAR SESION</h2>
-       <form class="needs-validation">
-        <div class="form-group was-validated">
-            <label for="email" class="form-label">Correo electronico</label>
-            <input type="email" id="email" class="form-control" placeholder="Ejp: daniel@gmail.com" required>
-            <div class="invalid-feedback">Por favor ingresa tu correo electronico</div>
-        </div>
-        <div class="form-group">
-            <label for="password" class="form-label">Contraseña</label>
-            <input type="password" id="password" class="form-control" required>
-            <div class="invalid-feedback">Por favor ingresa tu contraseña</div>
-        </div>
-        <div class="form-group form-check">
-            <input type="checkbox" id="check" class="form-check-input">
-            <label for="check" class="form-check-label">Recordarme</label>
-        </div>
-        <input  class="btn btn-primary w-100" type="submit" value="INGRESAR">
-       </form>
-    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" id="check" class="form-check-input">
+                        <label for="check" class="form-check-label">Recordarme</label>
+                    </div>
+                    <input class="btn btn-primary w-100" type="submit" value="INGRESAR">
+                </form>
+            </div>
         </main>
-  
+
         <footer>
             <div class="contenedor">
                 <h2 class="titulo-footer">Contactanos por medio de nuestras redes sociales</h2>
@@ -106,19 +113,19 @@
                     <i class="fab fa-twitter"></i>
                 </a>
             </div>
-            <div> 
+            <div>
                 <p class="derechos">© 2022 TonyDrink's, todos los derechos reservados.</p>
             </div>
         </footer>
-</footer>
-   <!-- SCRIPTS JS -->
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    </div>
+    <!-- SCRIPTS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
         crossorigin="anonymous"></script>
-        </div>
+
 </body>
 
 </html>
