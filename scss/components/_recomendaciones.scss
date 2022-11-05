@@ -6,7 +6,8 @@
     font-weight: 600;
     width: 100%;
     background-color: nth($colores, 9);
-    color: nth($colores , 1);
+    color: nth($colores , 1 );
+    text-shadow:  0 0 5px black;
     @include display-flex;
     font-family: nth($tipografia, 1);
     text-align: center;
@@ -17,7 +18,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: nth($colores , 2);
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 
     .div-recomendaciones {
         margin: 80px auto;
@@ -27,27 +31,37 @@
         margin: 20px 140px;
         width: 300px;
         height: 350px;
+        border-radius: 50px;
+        border: 2px black solid;
     }
 
     #imagen-2 {
         width: 450px;
         height: 350px;
         margin: 20px 60px;
+        border-radius: 50px;
+        border: 2px black solid;
     }
     #imagen-3{
         margin: 20px 10px;
         width: 370px;
         height: 230px;
+        border-radius: 50px;
+        border: 2px black solid;
     }
     #imagen-4{
         margin: 20px 10px;
         width: 370px;
         height: 230px;
+        border-radius: 50px;
+        border: 2px black solid;
     }
     #imagen-5{
         margin: 20px 10px;
         width: 350px;
         height: 230px;
+        border-radius: 50px;
+        border: 2px black solid;
     }
 
     .texto-recomendaciones {

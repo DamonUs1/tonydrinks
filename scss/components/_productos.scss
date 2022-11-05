@@ -2,15 +2,25 @@
 @import '../base/mixin';
 
 .fondo-destacados {
-    /*
-    background-image: url(https://fondosmil.com/fondo/34253.jpg);
-*/
-background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
-background-position: center;
+
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
     h2 {
         @include titulos;
+        text-align: center;
+    }
+
+    @keyframes animate {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+
+        100% {
+            filter: hue-rotate(360deg);
+        }
     }
 
     .productos {
@@ -22,25 +32,33 @@ background-position: center;
         width: 150px;
         height: 180px;
         border-radius: 100px;
-        border: 2px solid;
         display: flex;
         margin: 15px auto;
+        transition: 1s ease;
         box-shadow: 0 0 3px nth($colores, 1),
-            0 0 6px nth($colores, 1),
-            0 0 15px nth($colores, 1),
-            0 0 25px nth($colores, 7),
-            0 0 25px nth($colores, 7),
-            0 0 30px nth($colores, 7),
-            0 0 30px nth($colores, 7),
-            0 0 30px nth($colores, 7);
+            0 0 3px nth($colores, 1),
+            0 0 4px nth($colores, 3),
+            0 0 10px nth($colores, 3),
+            0 0 12px nth($colores, 3),
+            0 0 15px nth($colores, 3),
+            0 0 18px nth($colores, 3),
+            0 0 20px nth($colores, 3);
+            
 
     }
+    .productos img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
 
     .productos p {
         text-align: center;
         font-size: nth($font-size, 7);
         font-weight: 600;
-        color: nth($colores, 1);
+        color: nth($colores , 1);
+        text-shadow: 0 0 10px black;
         font-family: nth($tipografia , 1);
     }
 }

@@ -1,5 +1,8 @@
 .fondo-ubicacion{
-    background-color: #002E94;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     h2{
         @include titulos;
         
@@ -11,13 +14,14 @@
         width: 100%;
         border: 1px solid #000000;
         border-radius: 5%;
+        margin: 50px 0;
     }
     .direccion-contacto{
         background-color: nth($colores , 5 );
     }
     h3{
         font-size: nth($font-size , 3);
-        color: nth($colores, 8 );
+        color: nth($colores, 1);
         font-family: nth($tipografia, 1 );
         margin: 50px auto;
         @include display-flex;
@@ -25,9 +29,15 @@
     }
     h4{
         font-size: nth($font-size , 2 );
-        color: nth($colores, 8 );
+        color: nth($colores, 1 );
         font-family: nth($tipografia , 1 );
         padding-left: 20px;
+    }
+    .icon-map{
+        color: rgb(0, 132, 255);
+    }
+    .icon-boli{
+        color: rgb(0, 132, 255);
     }
     .icon-ubi{
         color: red;
