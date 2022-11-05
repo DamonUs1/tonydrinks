@@ -5,6 +5,7 @@
     background-attachment: fixed;
     h2{
         @include titulos;
+        text-align: center;
         
     }
     .mapa{

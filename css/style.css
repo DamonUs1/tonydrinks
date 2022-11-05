@@ -17,9 +17,15 @@
 
 }
 */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+}
 header .navbar-fondo {
   background-color: black;
   width: 100%;
+  position: sticky;
 }
 header .logo {
   height: 100px;
@@ -231,6 +237,7 @@ header .categorias a {
   color: yellow;
   text-shadow: 0 0 15px yellow 0 0 25px yellow;
   animation: animate 1.5s linear infinite;
+  text-align: center;
 }
 .fondo-ubicacion .mapa {
   background-color: rgba(32, 140, 241, 0.231372549);
@@ -363,6 +370,7 @@ header .categorias a {
   text-shadow: 0 0 15px yellow 0 0 25px yellow;
   animation: animate 1.5s linear infinite;
   padding: 50px 0;
+  text-align: center;
 }
 .fondo-alcohol .productos {
   margin: 45px auto;
@@ -422,6 +430,8 @@ header .categorias a {
   color: yellow;
   text-shadow: 0 0 15px yellow 0 0 25px yellow;
   animation: animate 1.5s linear infinite;
+  padding: 50px 0;
+  text-align: center;
 }
 .fondo-Salcohol .productos {
   margin: 45px auto;
@@ -651,6 +661,9 @@ footer i {
   .fondo-destacados {
     display: none;
   }
+  .fondo-ubicacion h4 {
+    font-size: 1.7rem;
+  }
   .nosotros {
     height: 120vh;
   }
@@ -717,6 +730,9 @@ footer i {
   }
   .fondo-destacados {
     display: none;
+  }
+  .fondo-ubicacion h4 {
+    font-size: 2rem;
   }
   .nosotros {
     height: 110vh;

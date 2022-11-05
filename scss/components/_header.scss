@@ -1,8 +1,14 @@
 header {
+    position: sticky;
+    top: 0;
+    z-index: 300;
+    
+
     .navbar-fondo {
         background-color: black;
         width: 100%;
-
+        position: sticky;
+        
     }
 
     .logo {
@@ -19,21 +25,23 @@ header {
         height: 100px;
         margin-left: 45px;
     }
+
     .categorias {
         display: flex;
         flex-wrap: wrap;
         font-family: 'reboto';
         justify-content: end;
         padding: 30px;
-    
+
     }
-    
-    .categorias li{
+
+    .categorias li {
         padding: 15px;
         font-weight: bold;
     }
-    .categorias a{
+
+    .categorias a {
         color: white;
-        font-size: nth($font-size , 7 );
+        font-size: nth($font-size , 7);
     }
 }
