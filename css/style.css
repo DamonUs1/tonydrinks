@@ -71,13 +71,14 @@ header .categorias a {
 */
 .hero {
   height: 65vh;
-  background: url(https://imagizer.imageshack.com/img923/3518/ZZxZHp.jpg);
+  background-image: url("https://d.img.vision/hero/hero.webp");
   background-position: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
+  width: 100%;
 }
 .hero h1 {
   color: rgba(247, 247, 247, 0.89);
@@ -99,6 +100,7 @@ header .categorias a {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .segunda-seccion h2 {
   font-family: "reboto", sans-serif;
@@ -161,6 +163,7 @@ header .categorias a {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .fondo-destacados h2 {
   font-weight: 400;
@@ -255,6 +258,7 @@ header .categorias a {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .fondo-ubicacion h2 {
   font-weight: 400;
@@ -699,11 +703,11 @@ footer {
   margin: auto;
   overflow: hidden;
   padding: 60px 0 0 0;
-  background-color: rgba(128, 128, 128, 0.897);
+  background-color: #000000;
   text-align: center;
 }
 footer .titulo-footer {
-  color: rgba(0, 0, 0, 0.733);
+  color: #ffffff;
   font-family: "reboto";
   font-size: 2.3rem;
   margin-bottom: 3rem;
@@ -717,7 +721,13 @@ footer .redes-sociales {
 footer i {
   font-size: 2rem;
   padding: 0 2.5rem;
-  color: rgba(0, 0, 0, 0.733);
+  color: #ffffff;
+}
+footer .twitter {
+  color: #00acee;
+}
+footer .facebook {
+  color: #3b5998;
 }
 
 .derechos {

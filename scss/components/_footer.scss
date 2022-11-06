@@ -1,33 +1,44 @@
-footer{
+footer {
     width: 100%;
     max-width: 1500px;
     margin: auto;
     overflow: hidden;
-    padding: 60px 0 0 0 ;
-    background-color: nth($colores, 9 );
+    padding: 60px 0 0 0;
+    background-color: nth($colores, 12);
     text-align: center;
-    .titulo-footer{
-        color: nth($colores, 8 );
+
+    .titulo-footer {
+        color: nth($colores, 1);
         font-family: nth($tipografia , 1);
-        font-size: nth($font-size , 2 );
+        font-size: nth($font-size , 2);
         margin-bottom: 3rem;
     }
-    .redes-sociales{
+
+    .redes-sociales {
         @include display-flex;
         margin: 4rem;
     }
-    i{
-        font-size: nth($font-size, 1 );
+
+    i {
+        font-size: nth($font-size, 1);
         padding: 0 2.5rem;
-        color: nth($colores,  8);
-    }
-}
-    .derechos{
-        color: nth($colores, 8 );
-        font-size: 1rem;
-        @include display-flex;
-        background-color: nth($colores, 10 );
-        height: 3rem;
-        
+        color: nth($colores, 1);
     }
 
+    .twitter {
+        color: #00acee;
+    }
+
+    .facebook {
+        color: #3b5998;
+    }
+}
+
+.derechos {
+    color: nth($colores, 8);
+    font-size: 1rem;
+    @include display-flex;
+    background-color: nth($colores, 10);
+    height: 3rem;
+
+}

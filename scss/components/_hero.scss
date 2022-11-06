@@ -3,11 +3,12 @@
 
 .hero {
     height: 65vh;
-    background: url(https://imagizer.imageshack.com/img923/3518/ZZxZHp.jpg);
+    background-image: url('https://d.img.vision/hero/hero.webp');
     background-position: center;
     flex-direction: column;
     @include display-flex;
     background-repeat: no-repeat;
+    width: 100%;
     h1 {
         color: rgba(247, 247, 247, 0.89);
         text-align: center;
