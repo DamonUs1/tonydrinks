@@ -12,6 +12,22 @@
         @include titulos;
         text-align: center;
     }
+    h3{
+        text-align: center;
+        @include display-flex;
+        color: nth($colores , 1 );
+        text-shadow: 0 0 10px #208cf1, 0 0 14px #208cf1, 0 0 18px #208cf1, 0 0 20px #208cf1;
+        font-family: nth($tipografia, 1 );
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+    a{
+        text-align: center;
+        @include titulos;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 10px 0 0;
+    }
 
     @keyframes animate {
         0% {
@@ -43,15 +59,16 @@
             0 0 15px nth($colores, 3),
             0 0 18px nth($colores, 3),
             0 0 20px nth($colores, 3);
-            
+
 
     }
-    .productos img:hover{
+
+    .productos img:hover {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
         transform: scale(1.2);
         transition: 1s ease;
-        }
+    }
 
     .productos p {
         text-align: center;
@@ -61,6 +78,7 @@
         text-shadow: 0 0 10px black;
         font-family: nth($tipografia , 1);
     }
+
 }
 
 .fondo-alcohol {

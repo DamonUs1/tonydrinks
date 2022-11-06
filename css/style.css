@@ -174,6 +174,35 @@ header .categorias a {
   animation: animate 1.5s linear infinite;
   text-align: center;
 }
+.fondo-destacados h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #208cf1, 0 0 14px #208cf1, 0 0 18px #208cf1, 0 0 20px #208cf1;
+  font-family: "reboto";
+  font-size: 40px;
+  margin: 20px 0 0 0;
+}
+.fondo-destacados a {
+  text-align: center;
+  font-weight: 400;
+  font-family: "reboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  color: yellow;
+  text-shadow: 0 0 15px yellow 0 0 25px yellow;
+  animation: animate 1.5s linear infinite;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 0 0;
+}
 @keyframes animate {
   0% {
     filter: hue-rotate(0deg);
@@ -238,6 +267,7 @@ header .categorias a {
   text-shadow: 0 0 15px yellow 0 0 25px yellow;
   animation: animate 1.5s linear infinite;
   text-align: center;
+  padding: 80px 0 0 0;
 }
 .fondo-ubicacion .mapa {
   background-color: rgba(32, 140, 241, 0.231372549);
@@ -372,6 +402,35 @@ header .categorias a {
   padding: 50px 0;
   text-align: center;
 }
+.fondo-alcohol h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #208cf1, 0 0 14px #208cf1, 0 0 18px #208cf1, 0 0 20px #208cf1;
+  font-family: "reboto";
+  font-size: 40px;
+  margin: 20px 0 0 0;
+}
+.fondo-alcohol a {
+  text-align: center;
+  font-weight: 400;
+  font-family: "reboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  color: yellow;
+  text-shadow: 0 0 15px yellow 0 0 25px yellow;
+  animation: animate 1.5s linear infinite;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 0 0;
+}
 .fondo-alcohol .productos {
   margin: 45px auto;
   align-content: center;
@@ -432,6 +491,35 @@ header .categorias a {
   animation: animate 1.5s linear infinite;
   padding: 50px 0;
   text-align: center;
+}
+.fondo-Salcohol h3 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 0 0 10px #208cf1, 0 0 14px #208cf1, 0 0 18px #208cf1, 0 0 20px #208cf1;
+  font-family: "reboto";
+  font-size: 40px;
+  margin: 20px 0 0 0;
+}
+.fondo-Salcohol a {
+  text-align: center;
+  font-weight: 400;
+  font-family: "reboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 20px;
+  color: yellow;
+  text-shadow: 0 0 15px yellow 0 0 25px yellow;
+  animation: animate 1.5s linear infinite;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 0 0;
 }
 .fondo-Salcohol .productos {
   margin: 45px auto;
@@ -658,11 +746,38 @@ footer i {
   .segunda-seccion p {
     font-size: 17px;
   }
-  .fondo-destacados {
-    display: none;
+  .fondo-destacados h2 {
+    font-size: 2.5rem;
+  }
+  .fondo-destacados h3 {
+    font-size: 30px;
+  }
+  .fondo-destacados a {
+    font-size: 25px;
+  }
+  .fondo-ubicacion h2 {
+    font-size: 2.5rem;
   }
   .fondo-ubicacion h4 {
     font-size: 1.7rem;
+  }
+  .fondo-alcohol h2 {
+    font-size: 2.5rem;
+  }
+  .fondo-alcohol h3 {
+    font-size: 30px;
+  }
+  .fondo-alcohol a {
+    font-size: 25px;
+  }
+  .fondo-Salcohol h2 {
+    font-size: 2.5rem;
+  }
+  .fondo-Salcohol h3 {
+    font-size: 30px;
+  }
+  .fondo-Salcohol a {
+    font-size: 25px;
   }
   .nosotros {
     height: 150vh;
@@ -681,26 +796,36 @@ footer i {
     width: 220px;
     height: 300px;
     margin: 10px 40px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-2 {
     width: 225px;
     height: 260px;
     margin: 10px 40px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-3 {
     width: 260px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-4 {
     width: 260px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-5 {
     width: 260px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .inicio-sesion {
     height: 120vh;
@@ -728,9 +853,6 @@ footer i {
   .segunda-seccion p {
     font-size: 22px;
   }
-  .fondo-destacados {
-    display: none;
-  }
   .fondo-ubicacion h4 {
     font-size: 2rem;
   }
@@ -756,26 +878,36 @@ footer i {
     width: 260px;
     height: 300px;
     margin: 10px 35px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-2 {
     width: 265px;
     height: 300px;
     margin: 10px 35px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-3 {
     width: 300px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-4 {
     width: 300px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .div-recomendaciones #imagen-5 {
     width: 300px;
     height: 260px;
     margin: 5px 20px;
+    transform: none;
+    -webkit-transform: none;
   }
   .inicio-sesion {
     height: 130vh;

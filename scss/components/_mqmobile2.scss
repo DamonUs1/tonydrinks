@@ -17,9 +17,6 @@
     .segunda-seccion p{
         font-size: 22px;
     }
-    .fondo-destacados{
-        display: none;
-    }
     .fondo-ubicacion h4{
         font-size: 2rem;
     }
@@ -45,26 +42,37 @@
         width: 260px;
         height: 300px;
         margin: 10px 35px;
+        transform: none;
+        -webkit-transform: none;
     }
     .div-recomendaciones #imagen-2{
         width: 265px;
         height: 300px;
         margin: 10px 35px;
+        transform: none;
+        -webkit-transform: none;
     }
     .div-recomendaciones #imagen-3{
         width: 300px;
         height: 260px;
         margin: 5px 20px;
+        transform: none;
+        -webkit-transform: none;
     }
     .div-recomendaciones #imagen-4{
         width: 300px;
         height: 260px;
         margin: 5px 20px;
+        transform: none;
+        -webkit-transform: none;
+        
     }
     .div-recomendaciones #imagen-5{
         width: 300px;
         height: 260px;
         margin: 5px 20px;
+        transform: none;
+        -webkit-transform: none;
 
     }
     .inicio-sesion{

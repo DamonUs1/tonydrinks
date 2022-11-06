@@ -12,7 +12,22 @@
         padding: 50px 0;
         text-align: center;
     }
-
+    h3{
+        text-align: center;
+        @include display-flex;
+        color: nth($colores , 1 );
+        text-shadow: 0 0 10px #208cf1, 0 0 14px #208cf1, 0 0 18px #208cf1, 0 0 20px #208cf1;
+        font-family: nth($tipografia , 1 );
+        font-size: 40px;
+        margin: 20px 0 0 0;
+    }
+    a{
+        text-align: center;
+        @include titulos;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 10px 0 0;
+    }
     .productos {
         margin: 45px auto;
         align-content: center;
