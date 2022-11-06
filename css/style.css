@@ -69,13 +69,14 @@ header .categorias a {
 }
 */
 .hero {
-  height: 95vh;
+  height: 65vh;
   background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
   background-position: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
 }
 .hero h1 {
   color: rgba(247, 247, 247, 0.89);
@@ -104,6 +105,7 @@ header .categorias a {
   font-size: 2.7rem;
   color: #ffffff;
   text-shadow: 2px 1px 14px #208cf1, 6px 3px 24px #208cf1, 8px 5px 28px #208cf1, 10px 8px 32px #208cf1;
+  padding: 65px 0 10px 0;
 }
 .segunda-seccion p {
   font-family: "reboto" sans-serif;
@@ -728,9 +730,6 @@ footer i {
 }
 
 @media only screen and (max-width: 359px) {
-  .hero {
-    height: 50vh;
-  }
   .hero h1 {
     font-size: 3.5rem;
   }
@@ -835,9 +834,6 @@ footer i {
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 450px) {
-  .hero {
-    height: 80vh;
-  }
   .hero h1 {
     font-size: 3.7rem;
   }
@@ -917,9 +913,6 @@ footer i {
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 961px) {
-  .hero {
-    height: 90vh;
-  }
   .hero h1 {
     font-size: 4rem;
   }

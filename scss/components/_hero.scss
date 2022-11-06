@@ -2,12 +2,12 @@
 @import '../base/mixin';
 
 .hero {
-    height: 95vh;
+    height: 65vh;
     background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
     background-position: center;
     flex-direction: column;
     @include display-flex;
-
+    background-repeat: no-repeat;
     h1 {
         color: rgba(247, 247, 247, 0.89);
         text-align: center;
