@@ -38,6 +38,7 @@ header .logo img {
   position: static;
   z-index: auto;
   height: 100px;
+  width: 100px;
   margin-left: 45px;
 }
 header .categorias {
@@ -70,7 +71,7 @@ header .categorias a {
 */
 .hero {
   height: 65vh;
-  background-image: url("https://thumbs.dreamstime.com/b/c%C3%B3cteles-modernos-en-vidrios-63613567.jpg");
+  background: url(https://imagizer.imageshack.com/img923/3518/ZZxZHp.jpg);
   background-position: center;
   flex-direction: column;
   display: flex;
