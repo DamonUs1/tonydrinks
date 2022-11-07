@@ -1,5 +1,7 @@
 @media only screen and (max-width:359px) {
-    .hero {
+    header .categorias a {
+        color: #ffffff;
+        font-size: 1rem;
     }
 
     .hero h1 {
@@ -13,104 +15,135 @@
     .titulos {
         font-size: nth($font-size, 2);
     }
+
     .segunda-seccion h2 {
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .segunda-seccion p {
-        font-size: 17px;
+        font-size: 20px;
     }
-    @mixin titulos {
+    .segunda-seccion .beneficios {
+        margin: 60px;
+        height: 290px;
+      }
+
+    .segunda-seccion .beneficios img {
+        width: 175px;
+        height: 180px;
+        margin: 0 15%;
+    }
+    .segunda-seccion .beneficios p{
+        font-size: 1.3rem;
+    }
+
+    .fondo-destacados h2 {
         font-size: 2.5rem;
     }
-    .fondo-destacados h2{
-        font-size: 2.5rem;
-    }
-    .fondo-destacados h3{
+
+    .fondo-destacados h3 {
         font-size: 30px;
 
     }
-    .fondo-destacados a{
+
+    .fondo-destacados a {
         font-size: 25px;
     }
-    .fondo-ubicacion h2{
+
+    .fondo-ubicacion h2 {
         font-size: 2.5rem;
     }
-    .fondo-ubicacion h4{
+
+    .fondo-ubicacion h4 {
         font-size: 1.7rem;
     }
-    .fondo-alcohol h2{
+
+    .fondo-alcohol h2 {
         font-size: 2.5rem;
     }
-    .fondo-alcohol h3{
+
+    .fondo-alcohol h3 {
         font-size: 30px;
     }
-    .fondo-alcohol a{
-        font-size: 25px;
-    }
-    .fondo-Salcohol h2{
-        font-size: 2.5rem;
-    }
-    .fondo-Salcohol h3{
-        font-size: 30px;
-    }
-    .fondo-Salcohol a{
+
+    .fondo-alcohol a {
         font-size: 25px;
     }
 
-    
-    .nosotros{
+    .fondo-Salcohol h2 {
+        font-size: 2.5rem;
+    }
+
+    .fondo-Salcohol h3 {
+        font-size: 30px;
+    }
+
+    .fondo-Salcohol a {
+        font-size: 25px;
+    }
+
+
+    .nosotros {
         height: 150vh;
     }
-    .nosotros p{
+
+    .nosotros p {
         font-size: 20px;
         width: 250px;
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    .recomendaciones #mayor{
+
+    .recomendaciones #mayor {
         font-size: 2rem;
         text-align: center;
     }
-    .div-recomendaciones #imagen-1{ 
+
+    .div-recomendaciones #imagen-1 {
         width: 220px;
         height: 300px;
         margin: 10px 40px;
         transform: none;
         -webkit-transform: none;
     }
-    .div-recomendaciones #imagen-2{
+
+    .div-recomendaciones #imagen-2 {
         width: 225px;
         height: 260px;
         margin: 10px 40px;
         transform: none;
         -webkit-transform: none;
     }
-    .div-recomendaciones #imagen-3{
+
+    .div-recomendaciones #imagen-3 {
         width: 260px;
         height: 260px;
         margin: 5px 20px;
         transform: none;
         -webkit-transform: none;
     }
-    .div-recomendaciones #imagen-4{
+
+    .div-recomendaciones #imagen-4 {
         width: 260px;
         height: 260px;
         margin: 5px 20px;
         transform: none;
         -webkit-transform: none;
     }
-    .div-recomendaciones #imagen-5{
+
+    .div-recomendaciones #imagen-5 {
         width: 260px;
         height: 260px;
         margin: 5px 20px;
         transform: none;
         -webkit-transform: none;
     }
-    .inicio-sesion{
+
+    .inicio-sesion {
         height: 120vh;
     }
-    .login{
+
+    .login {
         width: 310px;
     }
 }
