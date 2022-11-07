@@ -10,47 +10,47 @@
     color: nth($colores , 1);
     background-color: nth($colores , 2);
 }
-    .inicio-sesion {
-        height: 100vh;
-        @include display-flex;
-        background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
-background-position: center;
+
+.inicio-sesion {
+    height: 100vh;
+    @include display-flex;
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-luz-neon-pared-ladrillo_161844-300.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: nth($colores , 1);
+    box-shadow: 0 0 22px lightslategray,
+        0 0 28px lightslategray,
+        0 0 32px black,
+        0 0 36px black,
+        0 0 40px black;
+
+    h2 {
+        font-size: nth($font-size , 2);
+        margin-bottom: 25px;
+        font-family: nth($tipografia , 1);
     }
 
-    .login {
-        width: 360px;
-        height: min-content;
-        padding: 20px;
-        border-radius: 12px;
-        background-color: nth($colores , 1);
-        box-shadow: 0 0 22px lightslategray,
-            0 0 28px lightslategray,
-            0 0 32px black,
-            0 0 36px black,
-            0 0 40px black;
+    form {
+        font-size: nth($font-size, 7);
 
-        h2 {
-            font-size: nth($font-size , 2);
-            margin-bottom: 25px;
-            font-family: nth($tipografia , 1);
-        }
-
-        form {
-            font-size: nth($font-size, 7);
-
-
-        }
-
-        .form-group {
-            margin-bottom: 12px;
-        }
-
-        .input [type="submit"] {
-            font-size: nth($font-size, 7);
-            margin-top: 15px;
-        }
 
     }
 
+    .form-group {
+        margin-bottom: 12px;
+    }
+
+    .input [type="submit"] {
+        font-size: nth($font-size, 7);
+        margin-top: 15px;
+    }
+
+}
